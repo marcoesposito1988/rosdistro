@@ -961,6 +961,8 @@ python-gcloud-pip:
   ubuntu:
     pip:
       packages: [gcloud]
+python-gdcm:
+  ubuntu: [python-gdcm]
 python-gdown-pip:
   debian:
     pip:
@@ -3297,6 +3299,8 @@ python-waitress:
   fedora: [python-waitress]
   gentoo: [dev-python/waitress]
   ubuntu: [python-waitress]
+python-vtkgdcm:
+  ubuntu: [python-vtkgdcm]
 python-walrus-pip:
   ubuntu:
     pip:

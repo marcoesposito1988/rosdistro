@@ -781,6 +781,8 @@ gdal-bin:
   fedora: [gdal]
   gentoo: [sci-libs/gdal]
   ubuntu: [gdal-bin]
+gdcm:
+  ubuntu: [libgdcm2-dev]
 geographiclib:
   debian: [libgeographiclib-dev]
   fedora: [GeographicLib-devel]
@@ -3354,6 +3356,8 @@ opengl:
     slackpkg:
       packages: [mesa]
   ubuntu: [libgl1-mesa-dev, libglu1-mesa-dev]
+openigtlink:
+  ubuntu: [libopenigtlink-dev]
 openjdk-6-jdk:
   arch: [openjdk6]
   debian: [openjdk-6-jdk]
@@ -4228,6 +4232,8 @@ vrep:
     trusty:
       source:
         uri: 'https://raw.githubusercontent.com/peci1/vrep_ros_bridge/rdmanifest/vrep.rdmanifest'
+vtkgdcm:
+  ubuntu: [libvtkgdcm2-dev]
 wget:
   arch: [wget]
   debian: [wget]
