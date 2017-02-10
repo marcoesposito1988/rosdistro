@@ -3136,6 +3136,10 @@ python-tornado-pip:
   ubuntu:
     pip:
       packages: [tornado]
+python-transforms3d:
+  ubuntu:
+    pip:
+      packages: [transforms3d]
 python-trep:
   debian:
     pip:
